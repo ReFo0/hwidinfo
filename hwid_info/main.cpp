@@ -11,6 +11,7 @@ auto serials() -> bool
 	system("\nwmic memorychip get serialnumber");
 	system("\nwmic desktopmonitor get Caption, MonitorType, MonitorManufacturer, Name");
 	system("\ngetmac");
+	std::cout << "\nControl Finshed.\n";
 	std::cin.get();
 	return 0;
 

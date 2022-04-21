@@ -14,7 +14,6 @@ auto serials() -> bool
 	std::cout << "\nControl Finshed.\n";
 	std::cin.get();
 	return 0;
-
 }
 
 auto main() -> int {
